@@ -13,6 +13,174 @@
 	<array>
 		<dict>
 			<key>abbreviation</key>
+			<string>svn:dmi</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-07-11T21:36:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Display svn:mergeinfo</string>
+			<key>lastUsed</key>
+			<date>2011-08-03T22:43:49Z</date>
+			<key>modificationDate</key>
+			<date>2012-03-28T23:00:27Z</date>
+			<key>plainText</key>
+			<string>svn pg svn:mergeinfo</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>1F38E9CA-F672-4BA8-B525-84B025D45E65</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>svn:dex</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-07-11T21:36:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Display svn:externals</string>
+			<key>lastUsed</key>
+			<date>2011-08-03T22:43:49Z</date>
+			<key>modificationDate</key>
+			<date>2012-03-28T23:00:23Z</date>
+			<key>plainText</key>
+			<string>svn pg svn:externals</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>E1FC4EDC-ADC2-4DE3-B10C-A5C0D830AB19</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>svn:di</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-07-11T21:36:28Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Display svn:ignore</string>
+			<key>lastUsed</key>
+			<date>2011-08-03T22:43:49Z</date>
+			<key>modificationDate</key>
+			<date>2012-03-28T23:00:51Z</date>
+			<key>plainText</key>
+			<string>svn pg svn:ignore</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>4</integer>
+			<key>uuidString</key>
+			<string>DC7461A8-6FDF-4BC1-A219-60FDAF6DCCCE</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>svnc</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2011-03-21T15:33:08Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>svn commit</string>
+			<key>lastUsed</key>
+			<date>2012-03-23T18:59:28Z</date>
+			<key>modificationDate</key>
+			<date>2011-03-21T15:33:27Z</date>
+			<key>plainText</key>
+			<string>svn commit -m "%|"</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>253</integer>
+			<key>uuidString</key>
+			<string>17F8E4FA-D64E-4067-9BB6-DCD31336B367</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>svn:ru</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-09-14T00:23:27Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Remove Unversioned Files</string>
+			<key>lastUsed</key>
+			<date>2012-03-12T23:50:56Z</date>
+			<key>modificationDate</key>
+			<date>2012-03-28T22:57:16Z</date>
+			<key>plainText</key>
+			<string>svn remove --force `svn status | grep ? | awk '{ print $2; }'`</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>40</integer>
+			<key>uuidString</key>
+			<string>A0E63565-EF5F-46F2-9207-1DCDA91B805D</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>svn:rm</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-06-03T23:45:00Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Remove Missing Items</string>
+			<key>lastUsed</key>
+			<date>2012-01-17T18:58:09Z</date>
+			<key>modificationDate</key>
+			<date>2012-03-28T22:56:35Z</date>
+			<key>plainText</key>
+			<string>svn remove `svn status | grep ! | awk '{ print $2; }'`</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>18</integer>
+			<key>uuidString</key>
+			<string>902F3D25-1E1C-41C5-B260-02DE03CE4030</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
+			<string>svn:au</string>
+			<key>abbreviationMode</key>
+			<integer>0</integer>
+			<key>creationDate</key>
+			<date>2010-06-03T23:47:18Z</date>
+			<key>flags</key>
+			<integer>0</integer>
+			<key>label</key>
+			<string>Add Unversioned Files</string>
+			<key>lastUsed</key>
+			<date>2012-03-21T00:04:46Z</date>
+			<key>modificationDate</key>
+			<date>2012-03-28T22:56:58Z</date>
+			<key>plainText</key>
+			<string>svn add `svn status | grep ? | awk '{ print $2; }'`</string>
+			<key>snippetType</key>
+			<integer>0</integer>
+			<key>useCount</key>
+			<integer>47</integer>
+			<key>uuidString</key>
+			<string>66371469-04BB-4070-8FAA-550EF5CC4699</string>
+		</dict>
+		<dict>
+			<key>abbreviation</key>
 			<string>svn:clean</string>
 			<key>abbreviationMode</key>
 			<integer>1</integer>
@@ -31,7 +199,7 @@
 			<key>useCount</key>
 			<integer>0</integer>
 			<key>uuidString</key>
-			<string>E1760690-0005-4BB9-A9E1-AAF22DDA5B85</string>
+			<string>E5548C6B-505D-4F01-B838-B3B629F848CD</string>
 		</dict>
 	</array>
 </dict>
